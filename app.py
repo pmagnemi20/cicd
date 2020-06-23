@@ -1,7 +1,7 @@
 import os
 import signal
 from flask import Flask
-from buzz import generator
+import generator
 
 app = Flask(__name__)
 
@@ -13,6 +13,6 @@ def generate_buzz():
     page += generator.generate_buzz()
     page += '</h1></body></html>'
     return page
-
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=os.getenv('PORT')) # port 5000 is the default
+    port=int(os.getenv('PORT'))
+    app.run(host='0.0.0.0', port=port)
