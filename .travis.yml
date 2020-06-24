@@ -4,6 +4,6 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: f89f72cb-e515-4719-88a0-5a267468bfae 
-on:
-    repo: pmagnemi20/cicd
+    secure: r8fq5UP2LQYH6S2r/msUlBzxWjFiDAaIJ/Gc2lNvnStsnofEXakym1ac41iLHFSp1ELkiDDcWRRYt3VjefAq6at0UsDAN6DMUrE4NFl9NGySbvTRi3R7+zB+hn6TGFaUhbYrWkt1fCzpClY3D41t1fMfugCW2soBUMfbfWksW5bgASKFo0wMw0KJYdFE0b+agF7RjFMoDILjGQmpjClCZGRWRBb+dOwLHSYTSN9Gp8q2vQ/lLqNgbsDGNJlBgqzu04lx2KvFlKz4ZXbzLlvY+69WAzaQ9iODKCVexbkaKWjZH0tI5+CL5i8LPXtlwq5sVMNxApLLwuDhLhjl5b2r0hnJkkif60vLWZ4NiXPOjkz3xxeFdvMIKtYt7f08lD1HaoGQXU/l0ctsgdnMFc+mALn5o3Dl/z3UdkeQVU4SPQ78HUq8YA7MJ2aahs7Ww9FaSvQeeSR1et00SWNcViQTkU58rWYSzKb3iwmlCoS++u59DsrDth92XMNFfIsLVkTDHlZ8v/+BkCkLEYu2CcWDkE68sIgzTUSyDGh0/ftSZu4R+BBOQhvCrgBOyzErPySnJqxR28gl07CsdUfulmbLYvLHzdsJq7S7dRuAQkug0wYRIPT97QWUnvZJ7h/wXOlOqDFzK5++x4yvm+/H+nM6EDxVRwEaxSmoMxxnYhWe858=
+true:
+  repo: pmagnemi20/cicd
